@@ -1,0 +1,49 @@
+/* category section */
+
+
+#category {
+      min-height: 50vh;
+      max-width: 100%;
+      padding-top: 50px;
+}
+
+.category h1 {
+      font-size: 2rem;
+      color: black;
+      padding: 20px 0px;
+}
+
+.category-container {
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      grid-gap: 0.2rem;
+}
+
+.category-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-color: white;
+      padding: 10px;
+      cursor: pointer;
+      box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%,
+      0%, 0.45);
+}
+
+.category-box:hover {
+      box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%,
+                  0%, 0.45);
+      transition: 1s;
+}
+
+.category-box img {
+      height: 12vh;
+      width: 12vh;
+}
+
+.category-box h3 {
+      padding-top: 10px;
+      font-size: 0.95rem;
+}
+

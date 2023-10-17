@@ -1,0 +1,126 @@
+#footer {
+      /* max-height: 100vh; */
+      min-height: 60vh;
+      max-width: 100%;
+      /* background-color: rgb(235, 230, 224); */
+      background-color: #f5f5f5;
+}
+
+.footer {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      padding: 30px 0px;
+      width: 65%;
+      margin: 0 auto;
+}
+
+.footer h3 {
+      font-size: 1.2rem;
+      color: orangered;
+      padding: 10px 0px;
+}
+
+.footer li {
+      list-style: none;
+      cursor: pointer;
+      padding: 4px 0px;
+      font-size: 0.8rem;
+      font-weight: bolder;
+}
+
+.footer li:hover {
+      color: rgb(252, 108, 56);
+      text-decoration: underline;
+      transition: 1s;
+}
+
+.col-three-part1 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+}
+
+.col-three-part1 li {
+      font-size: 1rem;
+      padding: 0px 4px;
+}
+
+.col-three-part2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.5rem;
+      padding: 10px 0px;
+}
+
+.col-three-part2 img {
+      height: 3.5vh;
+      width: 10vh;
+
+}
+
+.col-four-part1 img {
+      height: 12vh;
+      width: 12vh;
+}
+
+.col-four-part1 .offer-imgs {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+}
+
+.app {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 20px 0px;
+}
+
+.app-contant {
+      padding-left: 10px;
+}
+
+.app-contant h3 {
+      font-weight: bolder;
+      padding: 0px 0px;
+}
+
+.app-contant a {
+      font-weight: bolder;
+      font-size: 0.9rem;
+}
+
+.col-four-part2 img {
+      height: 8vh;
+      width: 10vh;
+      border-radius: 10px;
+}
+.offer-two img{
+      width: 16vh;
+      padding-left: 10px;
+}
+.col-four-part2 a {
+      text-decoration: none;
+      color: black;
+      cursor: pointer;
+}
+
+.col-four-part2 a:hover {
+      color: rgb(250, 165, 134);
+      transition: 1s;
+}
+
+.col-four-part3 {
+      padding: 10px 0px;
+}
+
+.col-four-logos a {
+
+      padding: 0px 4px;
+}
+
+.col-four-logos img {
+      height: 3.5vh;
+      width: 3.5vh;
+}

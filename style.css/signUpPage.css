@@ -1,0 +1,168 @@
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]+label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]+label::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #333;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+input[type="checkbox"]:checked+label::before {
+    background-color: orangered;
+    border: 2px solid orangered;
+}
+
+input[type="checkbox"]+label::after {
+    content: "✔";
+    position: absolute;
+    left: 3px;
+    top: 2px;
+    color: #fff;
+    display: none;
+}
+
+input[type="checkbox"]:checked+label::after {
+    display: block;
+}
+
+.login-page-headings h1{
+    margin: 30px 0px;
+}
+#signup-page {
+    min-height: 50vh;
+    background-color: white;
+    max-width: 110vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+.signup-page {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;    
+}
+
+.signup-left {
+    padding: 20px 40px;
+}
+
+.signup-left-box {
+    padding: 6px 0px;
+}
+
+.signup-left-box h3 {
+    font-size: 1rem;
+    padding: 5px 0px;
+}
+
+.signup-left-box input {
+    width: 40vh;
+    padding: 7px 10px;
+
+}
+
+.signup-left-box::placeholder {
+    font-weight: bolder;
+}
+
+.signup-right {
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.signup-right-box {
+    padding: 10px 0px;
+}
+
+.signup-right-box label {
+
+    font-size: 0.8rem;
+}
+
+.signup-right-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-right-btn a {
+    width: 40vh;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0px;
+    color: #fff;
+    font-weight: bolder;
+    background-color: orangered;
+}
+
+.signup-right p {
+    font-size: 0.8rem;
+    padding: 10px 10px;
+}
+
+#facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+#facebook a {
+    width: 40vh;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0px;
+    color: #fff;
+    font-weight: bolder;
+    background-color: darkblue;
+
+
+}
+#facebook i{
+    padding: 0px 14px;
+}
+#google i{
+    padding: 0px 14px;
+}
+#google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px 0px; */
+
+}
+#google a{
+    width: 40vh;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0px;
+    color: #fff;
+    font-weight: bolder;
+    background-color: rgb(192, 20, 77);
+}

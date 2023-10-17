@@ -1,0 +1,408 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+
+
+}
+
+body {
+      min-height: 100%;
+      max-width: 100%;
+      color: rgb(78, 77, 77);
+      /* background-color: rgb(240, 239, 239); */
+      background-color: #f5f5f5;
+}
+
+#main-body {
+      height: 14vh;
+      background-color: orangered;
+      background-color: #f85606;
+}
+
+#main-body-contant {
+      max-width: 65%;
+      margin: 0 auto;
+}
+
+/* #header {
+      position: fixed;
+} */
+
+.header-one {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.header-one-left {
+      position: relative;
+}
+
+.header-one-left ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      list-style: none;
+      /* Move list-style here to remove bullet points */
+}
+
+.header-one-left ul li {
+      margin-right: 15px;
+      /* Add some spacing between list items */
+}
+
+.dropdown {
+      min-width: 50%;
+      background-color: whitesmoke;
+      position: absolute;
+      margin-top: 10px;
+      z-index: 999;
+      border-radius: 5px;
+      top: 100%;
+      /* Adjust the positioning to appear below the parent item */
+      left: 60%;
+      /* Adjust the left position */
+      padding: 12px 0px;
+      box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%,
+                  0%, 0.95);
+      display: none;
+}
+
+.header-one-left ul li:hover .dropdown {
+      display: block;
+
+      /* Show the dropdown when hovering over list items */
+}
+
+.dropdown ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      list-style: none;
+      /* Remove bullet points from the dropdown items */
+}
+
+.dropdown ul li {
+      padding: 5px 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+}
+
+.dropdown ul li a i {
+      padding: 0px 12px;
+}
+
+.dropdown ul li a {
+      color: rgb(78, 77, 77);
+      font-size: 0.8rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      /* Remove underline by default */
+}
+
+.dropdown ul li a:hover {
+      text-decoration: underline;
+      color: orangered;
+      transition: 0.2s;
+      /* Fix the 'transform' property, and specify the duration */
+}
+
+
+.header-one-right {
+      background-color: rgba(12, 12, 12, 0.25);
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+}
+
+.header-one-right a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.header-one-right a h4 {
+      font-size: 0.8rem;
+}
+
+.header-one-right img {
+      height: 3vh;
+      width: 3vh;
+      border-radius: 5px;
+      margin: 0px 4px;
+
+}
+
+.header-one a {
+      font-weight: 100;
+      font-size: 0.85rem;
+      color: whitesmoke;
+      padding: 8px 20px 10px 0px;
+      text-decoration: none;
+      font-weight: bolder;
+}
+
+.header-one a:hover {
+      color: lightgray;
+      transition: 1s;
+}
+
+.header-two {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+}
+
+.header-two a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 10px;
+      text-decoration: none;
+      color: whitesmoke;
+}
+
+.header-two img {
+      height: 7vh;
+      width: 16vh;
+      background-color: orangered;
+}
+
+.login a:hover {
+      background-color: rgb(206, 57, 2);
+      border-radius: 10px;
+      transition: 1s;
+}
+
+.sign-up a:hover {
+      background-color: rgb(206, 57, 2);
+      border-radius: 10px;
+      transition: 1s;
+}
+
+.header-two a i {
+      font-size: 1.3rem;
+      color: whitesmoke;
+      text-decoration: none;
+      padding: 0px 10px;
+}
+
+.header-two a h3 {
+      font-size: 0.85rem;
+      font-weight: bolder;
+
+}
+
+.header-two hr {
+      margin: 0px 15px;
+      height: 25px;
+      width: 1.3px;
+      border-color: whitesmoke;
+      color: whitesmoke;
+      background-color: whitesmoke;
+}
+
+.search-bar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.search-bar input {
+      width: 75vh;
+      min-height: 4.5vh;
+      margin: 0px 20px;
+      padding: 10px 20px;
+      border-radius: 12px;
+      border-color: transparent;
+}
+
+.search-bar input::placeholder {
+      font-size: 0.9rem;
+      color: rgb(78, 77, 77);
+      font-weight: bolder;
+}
+
+
+.search-bar a i {
+      margin-left: -90px;
+      font-size: 1.4rem;
+      color: rgb(236, 132, 13);
+      border: 1px solid rgb(236, 132, 13);
+      padding: 4px 15px;
+      opacity: 0.8;
+      border-radius: 10px;
+}
+
+/* Home page section */
+
+
+.home-page {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 10px 0px;
+
+}
+
+.left-list {
+      background-color: white;
+      /* background-color: #999; */
+      box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%,
+                  0%, 0.25);
+      padding: 10px 0px;
+      border-radius: 20px;
+      max-width: 30vh;
+      min-height: 45vh;
+}
+
+.left-list li {
+      list-style: none;
+      padding: 5px 20px;
+}
+
+.left-list li i {
+      padding: 0px 15px;
+      color: gray;
+
+}
+
+.left-list li a {
+      text-decoration: none;
+      color: rgb(78, 77, 77);
+      font-size: 0.85rem;
+
+}
+
+.left-list li a:hover {
+      color: orangered;
+      font-weight: bold;
+}
+
+/*RIGHT SLIDER CSS */
+.slider-wrapper {
+      position: relative;
+      max-width: 58rem;
+      padding-left: 30px;
+}
+
+.slider {
+      display: flex;
+      aspect-ratio: 21/9;
+      /* overflow-x:auto; */
+      overflow: hidden;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%,
+                  0%, 0.25);
+      border-radius: 0.6rem;
+}
+
+.slider img {
+      flex: 1 0 100%;
+      scroll-snap-align: start;
+      object-fit: cover;
+}
+
+.slider-nav {
+      display: flex;
+      column-gap: 1rem;
+      position: absolute;
+      bottom: 1.25rem;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
+}
+
+.slider-nav a {
+      width: 0.4rem;
+      height: 0.4rem;
+      border-radius: 50%;
+      background-color: whitesmoke;
+      opacity: 0.5;
+      transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+      opacity: 1;
+}
+
+/* ABOUT SECTION */
+
+#about {
+      max-width: 100%;
+      margin-bottom: 10px;
+
+}
+
+.about-list {
+      padding: 10px 0px;
+}
+
+.list-contant {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #fdfeff;
+      padding: 15px 20px;
+      border-radius: 0.7rem;
+}
+
+.list-contant li {
+      list-style: none;
+
+}
+
+.list-contant hr {
+      height: 20px;
+      width: 2px;
+      background-color: black;
+      color: black;
+      border-color: black;
+}
+
+.list-contant li a {
+      color: black;
+      text-decoration: none;
+      font-size: 0.7rem;
+      font-weight: bolder;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+
+}
+
+.list-contant li i {
+      font-size: 1.4rem;
+      margin: 0px 7px;
+}
+
+.list-contant:hover {
+
+      background-color: rgb(243, 225, 186);
+      transition: 1s;
+}
+
+#first {
+      color: orangered;
+}
+
+#second {
+      color: darkcyan;
+}
+
+#third {
+      color: darkblue;
+}
+
+#four {
+      color: orangered;
+}

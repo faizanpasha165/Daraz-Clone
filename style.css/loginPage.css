@@ -1,0 +1,144 @@
+.login-page-headings {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 100vh;
+      margin: 0 auto;
+      /* padding-top: 40px; */
+
+}
+
+.login-page-headings h1 {
+      font-size: 1.4rem;
+}
+
+.login-page-headings li {
+      list-style: none;
+      cursor: pointer;
+      text-decoration: underline;
+      color: darkblue;
+}
+
+#login-page {
+      display: flex;
+      justify-content: center;
+      min-height: 45vh;
+      max-width: 80vh;
+      margin: 20px auto;
+      /* padding-top: 30px; */
+}
+
+.login-page {
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      /* min-height: 0vh; */
+}
+
+.login-contant-left {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 0px 50px;
+}
+
+.login-contant-left h3 {
+      font-size: 1rem;
+      color: gray;
+      padding: 10px 0px;
+}
+
+.login-box-one {
+      padding: 15px 0px;
+}
+
+.login-box-two {
+      padding: 15px 0px;
+}
+
+.login-box-one input {
+      height: 5vh;
+      width: 50vh;
+      padding: 10px 3px;
+}
+
+.login-box-one ::placeholder {
+      padding: 2px 3px;
+}
+
+.login-box-two input {
+      height: 5vh;
+      width: 50vh;
+      padding: 10px 3px;
+
+}
+
+.login-box-two li {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      font-size: 0.8rem;
+      color: darkblue;
+      padding: 10px 0px;
+
+}
+
+.login-btn-one {
+      background-color: orangered;
+      padding: 10px 100px;
+}
+
+.login-btn-one a {
+      text-decoration: none;
+      color: white;
+      font-weight: bolder;
+      font-size: 1rem;
+      letter-spacing: 3px;
+}
+
+.login-contant-left li {
+      list-style: none;
+      padding: 8px 0px;
+      font-size: 0.8rem;
+}
+
+.login-btn-two {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: darkblue;
+      padding: 10px 78px;
+      margin: 10px 0px;
+
+}
+
+.login-btn-two a {
+      text-decoration: none;
+      color: white;
+      font-weight: bolder;
+}
+
+.login-btn-three {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: darkred;
+      padding: 10px 82px;
+}
+
+.login-btn-three a {
+      text-decoration: none;
+      color: white;
+      font-weight: bolder;
+
+}
+
+.login-btn-two i {
+      padding-right: 8px;
+}
+
+.login-btn-three i {
+      padding-right: 8px;
+}

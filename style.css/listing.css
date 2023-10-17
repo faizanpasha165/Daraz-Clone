@@ -1,0 +1,99 @@
+/* listin section */
+
+#list {
+      min-height: 170vh;
+      max-width: 100%;
+      padding: 30px 0px;
+}
+
+.list h1 {
+      font-size: 2rem;
+      color: black;
+      padding: 20px 0px;
+}
+
+.list-container {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-gap: 0.3rem;
+      grid-row-gap: 1rem;
+}
+
+.list-container a {
+      text-decoration: none;
+      color: black;
+}
+
+.list-container a:hover {
+      box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%,
+                  0%, 0.45);
+                  transition: 1s;
+}
+
+.list-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 10px 0px;
+      cursor: pointer;
+      background-color: white;
+}
+
+.list-box ul {
+      padding: 0px 10px;
+}
+
+.list-box ul li {
+      list-style: none;
+}
+
+.list-box h4 {
+      font-size: 1.6rem;
+      color: orangered;
+}
+
+.list-box img {
+      min-height: 28vh;
+      max-width: 21vh;
+}
+
+.list-box p {
+      font-size: 0.8rem;
+      padding: 12px 0px;
+      font-weight: 100;
+      color: rgb(78, 77, 77);
+}
+
+.list-box h6 {
+      font-weight: 100;
+      font-size: 1rem;
+}
+
+.star {
+      display: flex;
+      align-items: center;
+
+}
+
+.star i {
+      font-size: 0.55rem;
+      color: goldenrod;
+}
+
+.list-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 70px;
+
+}
+
+.list-button a {
+      padding: 8px 150px;
+      border: 1px solid orangered;
+      text-decoration: none;
+      color: orangered;
+      font-weight: bolder;
+      text-transform: uppercase;
+}

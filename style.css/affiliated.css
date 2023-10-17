@@ -1,0 +1,79 @@
+#whole-affiliated{
+      padding-top: 2px;
+}
+#affiliated {
+      min-height: 8vh;
+      max-width: 100%;
+      background-color: orangered;
+}
+
+.poster {
+      display: flex;
+      align-items: center;
+      /* justify-content: space-evenly; */
+      width: 80%;
+      margin: 0 auto;
+}
+
+.poster-contant h3 {
+      font-size: 2.5rem;
+      font-weight: bolder;
+      color: whitesmoke;
+      width: 55vh;
+      padding: 10px 0px;
+}
+
+.poster-contant h4 {
+      color: whitesmoke;
+      font-size: 1.3rem;
+      font-weight: 100;
+      letter-spacing: 1px;
+}
+
+.poster-img img {
+      height: 38vh;
+      width: 70vh;
+      margin-right: 0px;
+      padding-right: 0px;
+}
+
+.affiliated-poster img {
+      padding: 20px 0px;
+}
+
+.affiliated-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.affiliated-button a {
+      text-decoration: none;
+      color: whitesmoke;
+      border: 1px solid transparent;
+      background-color: orangered;
+      padding: 10px 26px;
+      font-weight: bolder;
+      border-radius: 10px;
+      text-transform: uppercase;
+}
+
+.affiliated-contant {
+
+      min-height: 45vh;
+      max-width: 100%;
+}
+
+.affiliated-contant h3 {
+      font-size: 2rem;
+      font-weight: bolder;
+      padding: 20px 0px;
+}
+
+.affiliated-contant p {
+      /* text-align: center; */
+      font-size: 0.9rem;
+      color: rgb(78, 77, 77);
+      /* letter-spacing: 0.8px; */
+      font-weight: 100;
+}
